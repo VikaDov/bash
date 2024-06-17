@@ -41,7 +41,7 @@ $ rm -r test3
 - Создать папку test4 в домашней директории  
 $ mkdir test4
 - Переместить файлы 1 и 3 из папки test1 в папку test4  
-$  cd /c/Users/dovga/test1    
+$  cd test1    
 dovga@DESKTOP-KALEHOB MINGW64 ~/test1    
 $ mv 1.txt 3.txt /c/Users/dovga/test4
 - Добавить в файл 1 три строки со словами line  
@@ -75,10 +75,11 @@ hello
 hello
 
 3. Задача 2:
-- Зайти в домашнюю директорию через терминал.
-
-- Создать папку test 3  
-
+- Зайти в домашнюю директорию через терминал.  
+$ cd
+- Создать папку test3    
+dovga@DESKTOP-KALEHOB MINGW64 ~  
+$ mkdir test3
 - Добавить в папку test 3 три файла 4, 5 и 6, в каждом из которых должно быть по 4 строки row1, row2, row3, row4  
 
 - Найдите строку row2 в файле 5  

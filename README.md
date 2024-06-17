@@ -24,8 +24,8 @@ $ mkdir test2
 - Удалить папку test2  
 $ rmdir test2
 - Удалить файл 2 из папки test1  
-$ cd test1
-dovga@DESKTOP-KALEHOB MINGW64 ~/test1       
+$ cd test1  
+dovga@DESKTOP-KALEHOB MINGW64 ~/test1         
 $ rm 2.txt
 - Создать папку в домашней директории test3 и добавить в нее два файла  
 $ cd  

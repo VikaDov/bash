@@ -1,16 +1,17 @@
 # Работа с git и bash
 1. Задача 1:
 - Открыть домашнюю директорию через терминал
+$ cd  
 - Определить имя папки, в которой вы находитесь  
-dovga@DESKTOP-KALEHOB MINGW64 ~/Desktop/QA/bash  
-$ pwd  
-/c/Users/dovga/Desktop/QA/bash
+dovga@DESKTOP-KALEHOB MINGW64 ~
+$ pwd
+/c/Users/dovga
 - Создать внутри этой папки каталог с именем test1  
 $ mkdir test1  
 - Перейти в папку test1  
 $ cd test1  
 - Создать файл 1,2 и 3 внутри каталога test1  
-dovga@DESKTOP-KALEHOB MINGW64 ~/Desktop/QA/bash/test1  
+dovga@DESKTOP-KALEHOB MINGW64 ~/test1  
 $ touch 1.txt 2.txt 3.txt
 - Проверить содержимое каталога test1  
 $ ls  
@@ -23,7 +24,8 @@ $ mkdir test2
 - Удалить папку test2  
 $ rmdir test2
 - Удалить файл 2 из папки test1  
-$ cd /c/Users/dovga/Desktop/QA/bash/test1   
+$ cd test1
+dovga@DESKTOP-KALEHOB MINGW64 ~/test1       
 $ rm 2.txt
 - Создать папку в домашней директории test3 и добавить в нее два файла  
 $ cd  
@@ -39,8 +41,8 @@ $ rm -r test3
 - Создать папку test4 в домашней директории  
 $ mkdir test4
 - Переместить файлы 1 и 3 из папки test1 в папку test4  
-$  cd /c/Users/dovga/Desktop/QA/bash/test1  
-dovga@DESKTOP-KALEHOB MINGW64 ~/Desktop/QA/bash/test1  
+$  cd /c/Users/dovga/test1    
+dovga@DESKTOP-KALEHOB MINGW64 ~/test1    
 $ mv 1.txt 3.txt /c/Users/dovga/test4
 - Добавить в файл 1 три строки со словами line  
 $ cd /c/Users/dovga/test4  

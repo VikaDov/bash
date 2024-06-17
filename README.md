@@ -1,9 +1,9 @@
 # Работа с git и bash
 1. Задача 1:
 - Открыть домашнюю директорию через терминал
-- Определить имя папки, в которой вы находитесь
-dovga@DESKTOP-KALEHOB MINGW64 ~/Desktop/QA/bash
-$ pwd
+- Определить имя папки, в которой вы находитесь  
+dovga@DESKTOP-KALEHOB MINGW64 ~/Desktop/QA/bash  
+$ pwd  
 /c/Users/dovga/Desktop/QA/bash
 - Создать внутри этой папки каталог с именем test1
 $ mkdir test1

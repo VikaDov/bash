@@ -83,15 +83,29 @@ $ mkdir test3
 - Добавить в папку test 3 три файла 4, 5 и 6, в каждом из которых должно быть по 4 строки row1, row2, row3, row4 (добавила вручную)    
 $ cd test3  
 dovga@DESKTOP-KALEHOB MINGW64 ~/test3
-- Найдите строку row2 в файле 5  
+- Найдите строку row2 в файле 5    
 $ grep "row2" 5.txt  
 row2
-- Найдите строку row в папке test3  
-
-- Посчитайте сколько строк с содержимым row в файле 6  
-
+- Найдите строку row в папке test3    
+$ grep -R "row" .  
+./4.txt:row1  
+./4.txt:row2  
+./4.txt:row3  
+./4.txt:row4  
+./5.txt:row1  
+./5.txt:row2  
+./5.txt:row3  
+./5.txt:row4  
+./6.txt:row1  
+./6.txt:row2  
+./6.txt:row3  
+./6.txt:row4  
+- Посчитайте сколько строк с содержимым row в файле 6    
+$ grep -c "row" 6.txt  
+4
 - Найдите файл 5 внутри папки test3  
-
+$ find -name "5.txt"  
+./5.txt
 - Используя команду find, удалите файл 5  
 
 - Используя команду echo, добавьте слово test в файл 4  

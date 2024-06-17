@@ -37,7 +37,7 @@ $ touch first.txt second.txt
 - Удалить папку test3  
 $ cd  
 dovga@DESKTOP-KALEHOB MINGW64 ~  
-$ rm -r test3
+$ rm -rf test3
 - Создать папку test4 в домашней директории  
 $ mkdir test4
 - Переместить файлы 1 и 3 из папки test1 в папку test4  
@@ -80,10 +80,12 @@ $ cd
 - Создать папку test3    
 dovga@DESKTOP-KALEHOB MINGW64 ~  
 $ mkdir test3
-- Добавить в папку test 3 три файла 4, 5 и 6, в каждом из которых должно быть по 4 строки row1, row2, row3, row4  
-
+- Добавить в папку test 3 три файла 4, 5 и 6, в каждом из которых должно быть по 4 строки row1, row2, row3, row4 (добавила вручную)    
+$ cd test3  
+dovga@DESKTOP-KALEHOB MINGW64 ~/test3
 - Найдите строку row2 в файле 5  
-
+$ grep "row2" 5.txt  
+row2
 - Найдите строку row в папке test3  
 
 - Посчитайте сколько строк с содержимым row в файле 6  

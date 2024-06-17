@@ -116,13 +116,25 @@ $ sed -i 's/test/fail/g' 4.txt
 $ echo "test" | tee -a 4.txt  
 test
 - Просмотрите все процессы для юзеров не только в консоли, которые происходят в системе  
-
+$ ps aux
 - Убейте процесс 666 в консоли  
-
+$ sudo kill 666
 - Узнайте доступность ресурса artsiomrusau.com, используя ping  
-
+$ ping artsiomrusau.com  
+Обмен пакетами с artsiomrusau.com [15.197.142.173] с 32 байтами данных:  
+Ответ от 15.197.142.173: число байт=32 время=12мс TTL=246  
+Ответ от 15.197.142.173: число байт=32 время=10мс TTL=246  
+Ответ от 15.197.142.173: число байт=32 время=9мс TTL=246  
+Ответ от 15.197.142.173: число байт=32 время=8мс TTL=246  
+Статистика Ping для 15.197.142.173:  
+    Пакетов: отправлено = 4, получено = 4, потеряно = 0  
+    (0% потерь)  
+Приблизительное время приема-передачи в мс:  
+    Минимальное = 8мсек, Максимальное = 12 мсек, Среднее = 9 мсек  
 - Отправьте 5 пакетов на сайт artsiomrusau.com  
-
+$ ping -c 5 artsiomrusau.com
 - Используя GET и команду curl, получите информацию о зарегистрированных питомцах на https://petstore.swagger.io/  
-
+$ curl https://petstore.swagger.io/v2/pet/findByStatus?status=available
 - Используя POST и команду curl, создайте нового пользователя на https://petstore.swagger.io/  
+$ curl -X POST https://petstore.swagger.io/v2/user --data "id=60" --data "username=viva" 
+--data "firstname=lora" --data "lastname=ivanova" --data "email=testtt@mail.ru" --data "password=loralora" --data "phone=987654321" --data "userStatus=0"

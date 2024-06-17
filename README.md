@@ -3,8 +3,8 @@
 - Открыть домашнюю директорию через терминал  
 $ cd  
 - Определить имя папки, в которой вы находитесь  
-dovga@DESKTOP-KALEHOB MINGW64 ~
-$ pwd
+dovga@DESKTOP-KALEHOB MINGW64 ~  
+$ pwd  
 /c/Users/dovga
 - Создать внутри этой папки каталог с именем test1  
 $ mkdir test1  

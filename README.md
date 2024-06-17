@@ -66,7 +66,7 @@ line
 - Используя один из редакторов замените все строки в файле 1
 vim 1.txt
 ![image](https://github.com/VikaDov/git_bash/assets/118528449/be3fe7ce-2958-4b23-8664-8fa40cb25b64)
-Проверим, что изменения внеслись 
+- Проверим, что изменения внеслись 
 $ cat 1.txt
 hello
 hello

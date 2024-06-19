@@ -137,8 +137,8 @@ $ ping -c 5 artsiomrusau.com
 $ curl https://petstore.swagger.io/v2/pet/findByStatus?status=available
 - Используя POST и команду curl, создайте нового пользователя на https://petstore.swagger.io/  
 $ curl -X POST https://petstore.swagger.io/v2/user --data "id=60" --data "username=viva" 
---data "firstname=lora" --data "lastname=ivanova" --data "email=testtt@mail.ru" --data "password=loralora" --data "phone=987654321" --data "userStatus=0" (при отправке запроса в таком виде сервер присылает ответ с статус кодом 415)
-- (при отправке запроса в таком виде пользователь успешно был создан в системе)
+--data "firstname=lora" --data "lastname=ivanova" --data "email=testtt@mail.ru" --data "password=loralora" --data "phone=987654321" --data "userStatus=0" 
+другой вариант создания пользователя
 ![image](https://github.com/VikaDov/git_bash/assets/118528449/6914d663-9dbb-4b37-843d-54a535aabc7f)
 
 
